@@ -12,9 +12,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     text: {
-        fontSize: 12,
+        fontSize: 20,
         fontWeight: '500',
         textTransform: 'uppercase',
+        fontFamily: 'NanumMyeongjoBold'
     }
 });
 
