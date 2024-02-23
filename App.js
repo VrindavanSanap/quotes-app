@@ -7,8 +7,8 @@ import {
 import { useFonts } from "expo-font"
 import styles from './styles';
 export default function App() {
-  const [quote, setQuote] = useState("asdadsfadsf")
-  const [author, setAuthor] = useState("asdfadsfadf")
+  const [quote, setQuote] = useState("a price offered by a market-maker for the sale or purchase of a stock or other security.")
+  const [author, setAuthor] = useState("Google")
   const [loaded] = useFonts({
     NanumMyeongjoRegular: require('./assets/fonts/NanumMyeongjo-Regular.ttf'),
     NanumMyeongjoBold: require('./assets/fonts/NanumMyeongjo-Bold.ttf')
